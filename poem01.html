@@ -15,90 +15,100 @@
     })(document);
   </script>
   <title>typography - trial 02</title>
-</head>
-<style>
-  .container-ext {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-column-gap: 0;
-    box-sizing: border-box;
-    padding: 4%;
-    margin: 0;
-    width: 100%;
-    min-height: 34rem;
-    background-image: url('parking-space-1487891.jpg');
-    background-origin: border-box;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    color: white;
-  }
-  .side-box {
-    font-family: "Roboto", sans-serif;
-    font-weight: light;
-    font-size: 10.5pt;
-    text-align: right;
-    font-variant-caps: all-small-caps;
-    letter-spacing: 0.2em;
-    display: grid;
-    justify-self: end;
-    align-self: center;
-    align-items: center;
-    background: #7286d3;
-    height: 16rem;
-    opacity: 0.7;
-    margin: 0;
-    padding: 2rem 2rem 2.8rem 2rem;
-  }
-  .side-box p {
-    
-  }
-  .textbox {
-    font-family: "agchoijeongho-screen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.8;
-    max-width: 27rem;
-    min-width: 10rem;
-    display: block;
-    align-items: center;
-    width: 70%;
-    max-height: 70%;
-    background: rgb(30 30 30 / 0.9);
-    padding: 3rem;
-  }
-  .text-title {
-    padding-bottom: 1rem;
-    font-family: "source-han-serif-korean", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  .author {
-    margin-top: 4rem;
-    text-align: right;
-    padding-right: 2rem;
-  }
-
-  @media (max-width: 500px) {
-    .container-ext {
-      display: block;
-      box-sizing: border-box;
+  <style>
+    body {
+      margin: 0;
     }
-    .sidebox {
-      display: block;
-      padding: 0.5rem;
+    .container-ext {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-column-gap: 0;
+      box-sizing: border-box;
+      padding: 4%;
+      margin: 0;
+      width: 100%;
+      min-height: 34rem;
+      background-image: url('https://blog.kakaocdn.net/dn/ZbggV/btr3borjnVP/VZjVaVVMzuoARXAK5AEufk/parking-space-1487891.jpg?attach=1&knm=img.jpg');
+      background-origin: border-box;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      color: white;
+    }
+    .side-box {
+      font-family: "roboto", sans-serif;
+      font-weight: light;
+      font-size: 10.5pt;
+      text-align: right;
+      font-variant-caps: all-small-caps;
+      letter-spacing: 0.2em;
+      display: grid;
+      justify-self: end;
+      align-self: center;
+      align-items: center;
+      background: #7286d3;
+      height: 16rem;
+      min-width: 6rem;
+      opacity: 0.7;
+      margin: 0;
+      padding: 2rem 2rem 2.8rem 2rem;
     }
     .textbox {
+      font-family: "agchoijeongho-screen", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.8;
+      max-width: 27rem;
       display: block;
-      padding: 2rem 0.5rem;
-      width: 100%;
+      align-items: center;
+      width: 70%;
+      max-height: 70%;
+      background: rgb(30 30 30 / 0.9);
+      padding: 3rem;
+    }
+    .text-title {
+      padding-bottom: 1rem;
+      font-family: "source-han-serif-korean", serif;
+      font-weight: 700;
+      font-style: normal;
     }
     .author {
-      margin-top: 2.5rem;
+      margin-top: 4rem;
       text-align: right;
-      padding-right: 1rem;
+      padding-right: 1.5rem;
+      padding-left: 2rem;
     }
-  }
-</style>
+  
+    @media (max-width: 500px) {
+      body {
+        margin: 0;
+      }
+      .container-ext {
+        display: block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 3% 5%;
+      }
+      .side-box {
+        display: block;
+        margin: 0;
+        width: 92%;
+        padding: 1.5rem;
+        max-height: 8rem;
+      }
+      .textbox {
+        display: block;
+        margin: 0;
+        padding: 2rem 1rem;
+        width: 92%;
+      }
+      .author {
+        margin-top: 2.5rem;
+        text-align: right;
+        padding-right: 2rem;
+      }
+    }
+  </style>
+</head>
 <body>
   <div class="container-ext">
     <div class="side-box">
